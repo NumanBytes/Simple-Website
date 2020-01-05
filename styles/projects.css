@@ -3,21 +3,23 @@
 }
 .body{
     /* color: #1E90FF; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header{
-    background-color: #1E90FF;
-    color: white;
+    margin: 0;
+    background-color: dodgerblue;
     text-align: center;
     padding: 1px;
-    display: block;
+    color: white;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .row {
     display: flex;
     width: 100%;
     color: white;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .column1{
