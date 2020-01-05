@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <!--head section-->
 
 <head>
@@ -19,37 +18,38 @@
   <div class="topnav">
     <a href="./pages/about.html" target="_self">ABOUT</a>
     <a href="./pages/facilities.html" target="_self">FACILITIES</a>
-    <a href="./pages/PROJECTS.html" target="_self">PROJECTS</a></div>
+    <a href="./pages/projects.html" target="_self">PROJECTS</a></div>
   <div class="slideshow-container">
-    <div class="mySlides fade">
-      <img src="../Assignment/assets/home1.jpg"></div>
+    <div class="mySlides fade" style="display: none;">
+      <img src="./assets/slider/home1.jpg" height="700px" width="100%"></div>
     <div class="text">REHA LUXURY HOUSES</div>
   </div>
-  </div>
-  <div class="mySlides fade">
-    <img src="../Assignment/assets/home2.jpg">
+
+  <div class="mySlides fade" style="display: none;">
+    <img src="./assets/slider/home2.jpg" height="700px" width="100%">
     <div class="text">REHA LUXURY HOUSES</div>
   </div>
-  <div class="mySlides fade">
-    <img src="../Assignment/assets/home3.jpg">
+  <div class="mySlides fade" style="display: block;">
+    <img src="./assets/slider/home3.jpg" height="700px" width="100%">
     <div class="text">REHA LUXURY HOUSES</div>
   </div>
-  <div class="mySlides fade">
-    <img src="../Assignment/assets/home4.jpg">
+  <div class="mySlides fade" style="display: none;">
+    <img src="./assets/slider/home4.jpg" height="700px" width="100%">
     <div class="text">REHA LUXURY HOUSES</div>
   </div>
-  <div class="mySlides fade">
-    <img src="../Assignment/assets/real estate(5).jpg">
+  <div class="mySlides fade" style="display: none;">
+    <img src="./assets/slider/real estate(5).jpg" height="700px" width="100%">
     <div class="text">REHA LUXURY HOUSES</div>
   </div>
   <div style="text-align:center">
     <span class="dot"></span>
     <span class="dot"></span>
-    <span class="dot"></span>
+    <span class="dot active"></span>
     <span class="dot"></span>
     <span class="dot"></span>
   </div>
   <script>
+
     var slideIndex = 0;
     showSlides();
 
@@ -70,3 +70,10 @@
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
   </script>
+  <div class="row">
+    <h1>ABOUT</h1>
+  </div>
+  <div style="margin-top: 500px"></div>
+</body>
+
+</html>
